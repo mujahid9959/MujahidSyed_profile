@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="form-heading">Add User</h1>
+
+        <form id="myForm">
+            <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" />
+                <p id="nameErrMsg" class="error-message"></p>
+            </div>
+
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" />
+                <p id="emailErrMsg" class="error-message"></p>
+            </div>
+            <div class="mb-3">
+                <label for="status">Working Status</label>
+                <select id="status" class="form-control">
+                    <option value="active" selected>Active</option>
+                    <option value="Inactive">In Active</option>
+
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <h1 class="gender-field-heading">Gender</h1>
+                <input type="radio" id="genderMale" value="Male" name="gender" checked />
+                <label for="genderMale">Male</label>
+                <input type="radio" id="genderFeMale" value="Female" class="ml-2" name="gender">
+                <label for="genderFeMale">Female</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary"> Submit </button>
+        </form>
+
+    </div>
+</body>
+
+</html>
+
+csss..............................
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.form-heading {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.error-message {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #dc3545;
+}
+
+.gender-field-heading {
+    font-size: 18px;
+    color: #212529;
+    margin-bottom: 10px;
+}
+.....js.....
+let myFormEl = document.getElementById("myForm");
+
+let nameEl = document.getElementById("name");
+let nameErrMsgEl = document.getElementById("nameErrMsg");
+
+let emailEl = document.getElementById("email");
+let emailErrMsgEl = document.getElementById("emailErrMsg");
+
+let workingStatusEl = document.getElementById("status");
+
+let genderMaleEl = document.getElementById("genderMale");
+
+let genderFeMaleEl = document.getElementById("genderFeMale");
+let formData = {
+    name: "",
+    email: "",
+    status: "Active",
+    gender: "Male"
+
+};
+
+function submitFormData(formData) {
+    let options = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+            Authorization: "Bearer 2cb1569987cafbe0e707016b6412a3ff8337a8d51257804ae9be29a0509a9ace"
+        },
+        body: JSON.stringify(formData)
+    }
+    let url = "https://gorest.co.in/public-api/users";
+
+    fetch(url, options)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(jsonData) {
+            console.log(jsonData);
+            if (jsonData.code === 422) {
+                if (jsonData.data[0].message === "has already been taken" && jsonData.data[0].field === "email") {
+                    emailErrMsgEl.textContent = "Email Already Exists";
+                }
+            }
+        })
+}
+
+nameEl.addEventListener("change", function(event) {
+    if (event.target.value === "") {
+        nameErrMsgEl.textContent = "Required*";
+    } else {
+        nameErrMsgEl.textContent = "";
+    }
+    formData.name = event.target.value;
+});
+
+emailEl.addEventListener("change", function(event) {
+    if (event.target.value === "") {
+        emailErrMsgEl.textContent = "Required*";
+    } else {
+        emailErrMsgEl.textContent = "";
+    }
+    formData.email = event.target.value;
+});
+
+workingStatusEl.addEventListener("change", function(event) {
+    formData.status = event.target.value;
+    console.log(event.target.value);
+});
+
+genderMaleEl.addEventListener("change", function(event) {
+    formData.gender = event.target.value;
+    console.log(event.target.value);
+});
+
+genderFeMaleEl.addEventListener("change", function(event) {
+    formData.gender = event.target.value;
+    console.log(event.target.value);
+});
+
+
+myFormEl.addEventListener("submit", function(event) {
+    event.preventDefault();
+    submitFormData(formData);
+
+});
