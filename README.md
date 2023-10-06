@@ -20,11 +20,11 @@
 
 __________________________________________________________________________________________________________________________________________________
 
-                                                A Passionate Full Stack Developer from India
+                                                <h1 style="color:Blue; text-align:center">A Passionate Full Stack Developer from India</h1>
                                                               
 Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Click Here</a>
 
-<h1 style="color:DodgerBlue; text-align:center">TECHNICAL SKILLS </h1>
+
 
 
 
