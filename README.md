@@ -1,5 +1,5 @@
 
-                                                <h1 class = "text-align:center"> anilpirlaccbp/README.md </h1>
+                                                <h1 text-align : center> anilpirlaccbp/README.md </h1>
 
 ![Alt text](https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif )
 
