@@ -27,7 +27,7 @@ Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Cli
 
 
 
-
+<h1 style = "color:Blue">TECHNICAL SKILLS</h1>
 
 
 
