@@ -4,26 +4,12 @@
 ![Alt text](https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif )
 
                                                             Hi, I'm Anil Pirla
-
-
-
-
-
-
-
-
-
-                                                       
-
-
-
-
 __________________________________________________________________________________________________________________________________________________
 
                                                 A Passionate Full Stack Developer from India
                                                               
 Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Click Here</a>
-<h1 style = "color:Blue">TECHNICAL SKILLS</h1>
+
 
 
 
