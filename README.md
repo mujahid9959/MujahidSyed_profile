@@ -1,7 +1,7 @@
 <div id="header" align="center">
   <img src="https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif" class = w-100/>
   <h1>
-   I'am Anil Pirla
+   Hii, I'm Anil Pirla
    
   </h1>
 </div>
