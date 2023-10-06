@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif" width="100"/>
+  <img src="https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif" />
   
   <img src="https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=blue" alt=""/>
   <h1>
