@@ -1,4 +1,4 @@
-                                                              <h1 class = "text-align">anilpirlaccbp/README.md</h1>
+                                                    <center> anilpirlaccbp/README.md
 
 ![Alt text](https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif )
 
@@ -17,14 +17,16 @@
 
 
 
-___________________________________________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________
 
-
-                                                              A Passionate Full Stack Developer from India
+                                                 A Passionate Full Stack Developer from India
                                                               
 Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Click Here</a>
 
 
+
+
+</center>
 
 
 
