@@ -25,7 +25,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
-  <img src="https://en.wikipedia.org/wiki/File:Python-logo-notext.svg" title="Git" **alt="Python" width="40" height="40"/>
+  <img src= "https://www.google.com/search?q=python+logo&tbm=isch&hl=en&chips=q:python+logo,g_1:icon:77YNkdDhUAk%3D,g_1:transparent:j22pR9uvdIw%3D&rlz=1C1CHZO_enIN1016IN1016&sa=X&ved=2ahUKEwi0pLrrgeKBAxV-mWMGHYYoA60Q4lYoAHoECAEQMQ&biw=1263&bih=551#imgrc=ZlaIuw2nTjGseM" title="Python" **alt="Python" width="40" height="40"/>
 </div>
 
 ---
