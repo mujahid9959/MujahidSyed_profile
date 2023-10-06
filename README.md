@@ -12,7 +12,7 @@
 
 
 
-                                                                               Hi, I'm Anil Pirla
+                                                                Hi, I'm Anil Pirla
 
 
 
@@ -20,7 +20,12 @@
 ___________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-                                                                              A Passionate Full Stack Developer from India
+                                                                A Passionate Full Stack Developer from India
+Connect with me on LinkedIn - ![Alt text](www.linkedin.com/in/
+?raw=true "Click Here")
+
+
+
 
 
 - 👋 Hi, I’m @anilpirlaccbp
