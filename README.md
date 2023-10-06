@@ -1,5 +1,5 @@
 <center>
-                                                    anilpirlaccbp/README.md
+                                                    anilpirlaccbp/README.md </center>
 
 ![Alt text](https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif )
 
@@ -20,7 +20,7 @@
 
 __________________________________________________________________________________________________________________________________________________
 
-                                                 A Passionate Full Stack Developer from India
+                                    <center>             A Passionate Full Stack Developer from India
                                                               
 Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Click Here</a>
 
