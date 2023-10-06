@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
                                                               A Passionate Full Stack Developer from India
                                                               
-Connect with me on LinkedIn - ![Click Here](https://www.linkedin.com/in/anils12/?raw=true)
+Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Click Here</a>
 
 
 
