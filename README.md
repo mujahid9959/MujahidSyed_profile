@@ -23,19 +23,11 @@ ________________________________________________________________________________
                                                 <h1 style="color:Blue; text-align:center">A Passionate Full Stack Developer from India</h1>
                                                               
 Connect with me on LinkedIn - <a href="https://www.linkedin.com/in/anils12/">Click Here</a>
-
-
-
-
 <h1 style = "color:Blue">TECHNICAL SKILLS</h1>
 
 
 
-- 👋 Hi, I’m @anilpirlaccbp
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ..
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+
 
 <!---
 anilpirlaccbp/anilpirlaccbp is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
