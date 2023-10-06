@@ -1,5 +1,5 @@
 
-                                              <h1 style="text-align:center> anilpirlaccbp/README.md </h1> 
+                                           ` anilpirla/README.md`
 
 ![Alt text](https://raw.githubusercontent.com/PolarBearGG/PolarBearGG/master/web-developer.gif )
 
@@ -13,7 +13,7 @@
 
 
 
-                                                                Hi, I'm Anil Pirla
+                                                        `Hi, I'm Anil Pirla`
 
 
 
